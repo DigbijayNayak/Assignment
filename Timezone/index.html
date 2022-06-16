@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/JavaScript" src=" https://MomentJS.com/downloads/moment.js"></script>
+    <title>Timezone Program</title>
+</head>
+
+<body>
+    <div class="timezone">
+        <label><b>Select the country to display the time</b></label><br>
+        <select id="timezone" name="countrytime">
+            <option value="Asia/Kolkata">Kolkata</option>
+            <option value="Africa/Cairo">Cairo</option>
+            <option value="America/Chicago">Chicago</option>
+            <option value="Australia/Sydney">Sydney</option>
+            <option value="Asia/Dubai">Dubai</option>
+            <option value="Asia/Karachi">Karachi</option>
+            <option value="Europe/London">London</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="America/Los_Angeles">Los_Angeles</option>
+        </select>
+        <button onclick="disp_TZ()" class="button">Get Time</button>
+        <br>
+        <span id="tresult"></span>
+        <span id="diff"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

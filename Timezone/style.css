@@ -1,0 +1,10 @@
+body{
+    background-color: #ccc;
+}
+
+.timezone{
+    text-align: center;
+}
+select, span{
+    margin-top: 12px;
+}
